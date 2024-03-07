@@ -1,0 +1,187 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+p {
+  all: unset;
+}
+
+.calendar {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.CrmTicketcard {
+  border-radius: 7px !important;
+  border-top: 7px solid #EA881A;
+  width: 124px;
+  height: 188px;
+  float: left;
+}
+
+.text {
+  color: var(--neutralDark, #323130);
+  font-family: Segoe UI;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.782px;
+  /* 89.437% */
+  letter-spacing: 0.606px;
+  margin-top: 0;
+}
+
+.caption {
+  color: #989898;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 170.742% */
+  letter-spacing: -0.182px;
+  margin: 0;
+}
+
+.CrmTicketbutton {
+  width: 72px;
+  height: 25px;
+  border-radius: 3px;
+  border: 1px solid #E8E8E8;
+  color: #6F6F6F !important;
+  font-size: 13.329px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  /* 0% */
+  letter-spacing: 0.303px;
+  margin-top: 10px !important;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
+
+.row {
+  width: 100%;
+  border-radius: 7px !important;
+  border:1px;
+}
+
+.CrmTicketcolumn {
+  width: 50%;
+}
+.layoutOne{
+  display:flex;
+  flex-direction: row;
+}
+.Tmscolumn {
+  width: 50%;
+}
+.Tmscard {
+  width: 122px;
+  height: 188px;
+  border-radius: 7px !important;
+  border-top: 7px solid #3A86FF;
+  float: left;
+  margin-left: 15px;
+}
+
+// .btn1 {
+//   width: 62.839px;
+//   height: 25.145px;
+//   border-radius: 3px;
+//   border: 1px solid #E8E8E8;
+// }
+.Tmsbutton {
+  width: 62.839px;
+  height: 25.145px;
+  border-radius: 3px;
+  border: 1px solid #E8E8E8;
+  background: white;
+  color: #6F6F6F !important;
+  font-size: 13.329px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  /* 0% */
+  letter-spacing: 0.303px;
+  margin-top: 9px !important;
+}
+
+.TechCrmcard {
+  width: 100%;
+  height: 188px;
+  border-radius: 7px 7px 0px 0px !important;
+  border-top: 7px solid #6A5FE7;
+  margin-top: 15px;
+}
+
+// .row2{
+//   width: 382px;
+//   height: 188px;
+//   border-radius: 7px 7px 0px 0px !important;
+//   border-top: 7px solid #6A5FE7;
+//   margin-top: 10px !important;
+// }
+.TechCrm {
+  width: 50%;
+  float: left;
+}
+
+.Techcrmlogo{
+margin-top: 15px !important;
+}
+.TechCrmImage {
+  width: 50%;
+  float: left;
+  height: inherit;
+}
+
+.TechCrmbutton {
+  width: 62.839px;
+  height: 25.145px;
+  border-radius: 3px;
+  background: #283657;
+  border: 1px solid #E8E8E8;
+  margin-top: 10px;
+  margin-bottom: 21px;
+  color: var(--white, #FFF);
+  font-family: Segoe UI;
+  font-size: 13.329px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0px;
+  /* 0% */
+  letter-spacing: 0.303px;
+}

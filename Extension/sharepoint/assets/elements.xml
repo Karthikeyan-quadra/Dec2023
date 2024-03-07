@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="Chat"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="b7624e3a-cc0f-460e-9aa7-2ee284e4c170"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
